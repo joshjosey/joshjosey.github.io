@@ -1,0 +1,82 @@
+:root {
+	--primary-font: Arial, Helvetica, sans-serif;
+	--secondary-font:  "Roboto", sans-serif;
+	--primary-color: #14281dff;
+	--secondary-color: #355834ff;
+	--tertiary-color: #6e633dff;
+	--quartenary-color:  #c2a878ff;
+    --background-color: #EDEDED;
+	--text-color-light: #f1f5f2ff;
+    --text-color-dark: #202623;
+	--shadow-color: #000;
+	--box-shadow: 0px 2px 15px 2px var(--shadow-color);
+
+	--sm: 768px;
+
+	--primary-color-1: #9E1B32;
+	--primary-color-2: #000000;
+
+	--secondary-color-1: #FFFFFF;
+	--secondary-color-2: #2d2d2d;
+	--secondary-color-3: #f4f4f4;
+
+	--accent-color-1: #c0c0c0;
+	--accent-color-2: #7a1e1f;
+	--accent-color-3: #d1859d;
+
+
+
+}
+
+/*Clear the css*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: var(--accent-color-1);
+	color: var(--primary-color-2);
+    font-family: var(--primary-font);
+}
+
+.main{
+	text-align: center;
+}
+
+.photos{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+/*Footer*/
+footer img{
+	max-width: 30px;
+}
+
+/* Fading Slideshow */
+.fade-slideshow{
+	max-width: 760px;
+	border: red;
+}
+
+.fade-img-main img{
+	width: 100%;
+}
+
+.fade-imgs img{
+	display: none;
+}
+
+@keyframes fadeIn{
+	to {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn 1s ease-in 1 forwards
+}

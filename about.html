@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Josh Josey</title>
+
+    <!-- Halfmoon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/css/halfmoon.min.css" rel="stylesheet" integrity="sha256-RjeFzczeuZHCyS+Gvz+kleETzBF/o84ZRHukze/yv6o=" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/css/cores/halfmoon.modern.css" rel="stylesheet" integrity="sha256-DD6elX+jPmbFYPsGvzodUv2+9FHkxHlVtQi0/RJVULs=" crossorigin="anonymous">
+	<link href="css/base.css" rel="stylesheet" type="text/css" />
+    <link href="css/navbar.css" rel="stylesheet" type="text/css" />
+
+    <script defer src="js/main.js"></script>
+    <script src="js/typeWriter.js"></script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        // Using JavaScript to load the Navbar HTML
+        fetch('components/navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading the navbar:', error));
+    </script>
+    <div class="container text-center p-3">
+        <!--Background-->
+        <div class="row align-items-center justify-content-between pt-4">
+            <div class="col-12 col-md-6 col-lg-4 fade-slideshow" id="academicSlideshow">
+                <!--First Image to show-->
+                <div class="fade-img-main">
+                    <img src="media/joshjoseysenior.jpg" class="current rounded-1" alt="A slideshow of photos of Josh at Texas Tech"/>
+                </div>
+                <!--All images-->
+                <div class="fade-imgs">
+                    <img src="media/initials.jpg"/>
+                    <img src="media/joshjosey.jpg"/>
+                    <img src="media/joshjoseysenior.jpg"/>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h1 class="text-center text-md-start text-lg-center">
+                    Academics
+                </h1>
+                <p class="text-start" style="font-size: clamp(12px, 2vw, 15px);">
+                    Graduating <i>Summa Cum Laude</i> from Texas Tech University with a <strong>B.S. in Computer Science and a minor in Mathematics</strong>, I am now pursuing an M.S. in Software Engineering & Security. 
+                    Throughout my academic journey, I have cultivated a diverse skill set and deep knowledge in both programming practices and computer science theory. Beyond academics, I actively 
+                    engage in leadership and service roles, including serving as an ambassador for the university through President's Select, a member of Mortar Board, and a former executive officer 
+                    of Beta Upsilon Chi. My commitment to community service is demonstrated through my weekly volunteer work with my local church. Driven by a passion for innovation, I aspire to 
+                    leverage my skills to make meaningful contributions to the field of Computer Science and beyond.
+                </p>
+            </div>
+        </div>
+        <!--Study Abroad-->
+        <div class="row align-items-center justify-content-between pt-4">
+            <div class="col-12 col-md-6 col-lg-6">
+                <h1 class="text-center text-md-start text-lg-center">
+                    Abroad
+                </h1>
+                <p class="text-start" style="font-size: clamp(12px, 2vw, 15px);">
+                    In the summer of 2023, I had the opportunity to study abroad at Texas Tech Costa Rica. This was truly one of the best experiences of my
+                    time as a student. During my 10 week program we had the opportunity to visit each province of the country and see some of the most
+                    well known places. One of the trips we went on was to the La Fortuna waterfall. After descending the 500 step stairway, getting to see the
+                    250 foot waterfall and swim in the basin was an incredible experience. Although all of the excursions were incredible, the truly amazing 
+                    part of this experince was the day to day living. Getting a glimpse into another culture and making my best efforts to put duolingo into practice
+                    made for an unforgettable journey.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 fade-slideshow" id="abroadSlideshow">
+                <!--First Image to show-->
+                <div class="fade-img-main">
+                    <img src="media/abroad/church.jpg" class="current rounded-1" alt="A slideshow of photos of Josh at Texas Tech Costa Rica"/>
+                </div>
+                <!--All images-->
+                <div class="fade-imgs">
+                    <img src="media/abroad/fortuna.jpg"/>
+                    <img src="media/abroad/ttu.jpg"/>
+                    <img src="media/abroad/manuelAntonio.jpg"/>
+                    <img src="media/abroad/church.jpg"/>
+                </div>
+            </div>
+        </div>
+        <!-- Camp -->
+        <div class="row align-items-center justify-content-between pt-4">
+            <div class="col-12 col-md-6 col-lg-4 fade-slideshow" id="campSlideshow">
+                <!--First Image to show-->
+                <div class="fade-img-main">
+                    <img src="media/camp/headshot2.jpg" class="current rounded-1" alt="A slideshow of photos of Pine Cove Shores"/>
+                </div>
+                <!--All images-->
+                <div class="fade-imgs">
+                    <img src="media/camp/dock.jpg"/>
+                    <img src="media/camp/headshot2.jpg"/>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h1 class="text-center text-md-start text-lg-center">
+                    Camp
+                </h1>
+                <p class="text-start" style="font-size: clamp(12px, 2vw, 15px);">
+                    In the summer of 2022 I worked as a counselor for Pine Cove Shores, spending around 2 months on 
+                    Lake Palestine just outside of Tyler, Texas. <br/>Growing up I was the furthest thing from 
+                    a summer camp kid, but in my freshman year at Texas Tech, I believe God opened the door to work here to bring me closer to Him.
+                    Going by the camp name www.yoomama.com I led a cabin of around 8 young men each week.
+                    During their stay we went through a bible study called FRAME, focused on 
+                    looking at yourself and others through the same frame as God. Working at
+                    Pine Cove was one of the times in my life where I grew the most as a
+                    believer and a leader.
+                </p>
+            </div>
+        </div>
+        <!--Hobbies-->
+        <div class="row align-items-center justify-content-between pt-4">
+            <div class="col-12 col-md-6 col-lg-6">
+                <h1 class="text-center text-md-start text-lg-center">
+                    Hobbies
+                </h1>
+                <p class="text-start" style="font-size: clamp(12px, 2vw, 15px);">
+                    One of my favorite things to do in my free time is cook. Being quite
+                    a picky eater as a child I have plenty of recipes to try to make up
+                    for all of the lost time. Ironically, one of my best meals is the picky
+                    eater's favorite: Fried Chicken Tenders. Apart from cooking I also really
+                    really enjoy being on the move. Whether working out at the gym, going on a
+                    hike or exploring a new city.........
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 fade-slideshow" id="hobbySlideshow">
+                <!--First Image to show-->
+                <div class="fade-img-main">
+                    <img src="media/hobbies/concert.jpg" class="current rounded-1" alt="A slideshow of photos of Josh at Texas Tech Costa Rica"/>
+                </div>
+                <!--All images-->
+                <div class="fade-imgs">
+                    <img src="media/hobbies/garden.jpg"/>
+                    <img src="media/hobbies/glorieta.JPEG"/>
+                    <img src="media/hobbies/concert2.PNG"/>
+                    <img src="media/hobbies/glorieta2.JPEG"/>
+                    <img src="media/hobbies/concert.jpg"/>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="pt-5 pb-3" id="footer-container"></div>
+    <script>
+        // Using JavaScript to load the Navbar HTML
+        fetch('components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading the navbar:', error));
+    </script>
+    <!-- Option 1: Bootstrap JS bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
