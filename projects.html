@@ -28,24 +28,45 @@
             .catch(error => console.error('Error loading the navbar:', error));
     </script>
 
-<div class="container">
-    <div class="row">
-        <div class="card align-items-center text-center" style="width: 18.75rem;">
-            <img src="media/logos/linkedin.png" class="card-img-top pt-2" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Project title</h5>
-                <p class="card-text">
-                    Some quick example text to build on the card title and make up the 
-                    bulk of the card's content.
-                </p>
-            <a href="#" class="btn btn-primary">See More</a>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="card align-items-center text-center" style="width: 18.75rem;">
+                <img src="media/logos/linkedin.png" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">UAV Testbed</h5>
+                    <p class="card-text">
+                        UAV testbed created using MATLAB & Simulink
+                    </p>
+                <a href="#" class="btn btn-primary">See More</a>
+                </div>
+            </div>
+            <div class="card align-items-center text-center" style="width: 18.75rem;">
+                <img src="media/logos/linkedin.png" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Conway's Game of Life</h5>
+                    <p class="card-text">
+                        Implemented Conway's Game of Life using the Texas Tech high performance computing center
+                    </p>
+                <a href="#" class="btn btn-primary">See More</a>
+                </div>
+            </div>
+            <div class="card align-items-center text-center" style="width: 18.75rem;">
+                <img src="media/logos/linkedin.png" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Project title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the 
+                        bulk of the card's content.
+                    </p>
+                <a href="#" class="btn btn-primary">See More</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
-    
+        
 
-    <div id="footer-container"></div>
+
+    <div class="pt-5 pb-3" id="footer-container"></div>
     <script>
         // Using JavaScript to load the Navbar HTML
         fetch('components/footer.html')
