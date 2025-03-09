@@ -165,6 +165,7 @@ body.modal-open {
     overflow-y: auto; /* Allow vertical scrolling if the content overflows */
     max-height: calc(80vh - 40px); /* Leave space for padding and close button */
     padding-right: 10px; /* Optional: avoid scrollbar overlap */
+	padding-left: 10px; 
     padding-top: 20px; /* Ensure content doesn't overlap the close button */
 }
 
@@ -172,10 +173,25 @@ body.modal-open {
 .close-modal {
     position: absolute;
     top: 10px;
-    right: 10px;
+    left: 100px;
     font-size: 1.5rem;
 	padding: 10px;
     cursor: pointer;
 	z-index: 10;
+	display: none;
+}
+
+.see-more-btn{
+	background: var(--primary-color-1);
+	color: var(--secondary-color-1);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.see-more-btn:hover{
+	background: var(--primary-color-2);
 }
 
