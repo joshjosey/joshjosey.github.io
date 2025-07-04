@@ -39,3 +39,5 @@ function typeWriter(id, text, speed) {
 
     typeErase();
 }
+
+window.typeWriter = typeWriter;

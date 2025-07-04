@@ -33,4 +33,9 @@ function createSlideshow(containerSelector, interval = 10000) {
 createSlideshow('#academicSlideshow',Math.random() * 7500 + 7500);
 createSlideshow('#abroadSlideshow',Math.random() * 7500 + 7500);
 createSlideshow('#campSlideshow', Math.random() * 7500 + 7500);
-createSlideshow('#hobbySlideshow',Math.random() * 7500 + 7500);
+createSlideshow('#hobbySlideshow', Math.random() * 7500 + 7500);
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    typeWriter("typeText", ["developer."], 100);
+});
